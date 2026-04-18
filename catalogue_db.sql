@@ -24,36 +24,6 @@ CREATE TABLE IF NOT EXISTS characters (
   PRIMARY KEY (id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-INSERT INTO characters (name, image, description, age, abilities) VALUES
-('Aria Stormcaller',  'assets/images/characters/aria.jpg',
- 'A fierce elemental mage who commands lightning and wind from the high peaks of Valdara.',
- '27',
- 'Electrokinesis, Wind Manipulation, Storm Sight, Levitation'),
-
-('Doran Ashveil',     'assets/images/characters/doran.jpg',
- 'A veteran shadow-rogue trained by the Silent Guild; master of infiltration and deception.',
- '34',
- 'Shadow Step, Dual Wield, Poison Craft, Disguise Mastery'),
-
-('Lena Brightforge',  'assets/images/characters/lena.jpg',
- 'A half-dwarf artificer whose mechanical inventions blur the line between magic and science.',
- '22',
- 'Rune Crafting, Golem Binding, Explosives Engineering, Mechano-Sight'),
-
-('Kai Emberborn',     'assets/images/characters/kai.jpg',
- 'A dragon-blooded warrior carrying the ancient flame of the Emberborn lineage within his veins.',
- '19',
- 'Dragonfire Breath, Scales of Fortitude, Rage of the Ancients, Heat Immunity'),
-
-('Seraphine Vale',    'assets/images/characters/seraphine.jpg',
- 'A celestial healer descended from moon-touched priests who serve the goddess Lunara.',
- '31',
- 'Divine Healing, Moonbeam, Barrier of Light, Resurrection'),
-
-('Theron Coldmere',   'assets/images/characters/theron.jpg',
- 'An arctic ranger bonded with a dire wolf companion; hunter of the frozen wastes.',
- '40',
- 'Arctic Tracking, Ice Arrow, Beast Bond, Survival Instinct');
 
 -- ------------------------------------------------------------
 --  TABLE: places
